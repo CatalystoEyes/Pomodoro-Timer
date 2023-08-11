@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="pomodoro icon.png">
+</head>
+<body>
+    <header>
+        <nav><ul class="header-ul">
+            <li class="li-header"><form action="https://github.com/CatalystoEyes" class="form" target="_blank"><button class="header-button">🔗My GitHub</button></form></li>
+            <li class="li-header"><button class="header-button types">🍅Types of Pomodoro</button></li>
+            <li class="li-header"><button class="header-button types2">🍅About Pomodoro</button></li>
+        </ul></nav>
+    </header>
+    <div class="title">Pomodoro</div>
+    <div class="timer">
+        <div class="time"><h2 id="minute" class="time-number">25</h2></div>
+        <div class="time"><h2 class="time-number">:</h2></div>
+        <div class="time"><h2 id="second" class="time-number">00</h2></div>   
+    </div> 
+    <div class="panel-control">
+        <div class="start-button1"><button class="start-button">Start</button></div><div class="repeat"><button class="repeat-button"><svg width="36px" height="36px" viewBox="0 0 42 43" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g transform="translate(-822.000000, -536.000000)" fill="#FFFFFF">
+                    <path d="M863.952383,558.518302 L858.356821,558.518302 C857.936288,563.286914 855.320296,567.588033 851.279591,570.154815 C847.238511,572.722097 842.233217,573.261657 837.738132,571.615998 C833.243296,569.969841 829.770003,566.325437 828.342043,561.756412 C826.913957,557.186888 827.694196,552.213443 830.452572,548.301133 C833.210573,544.388323 837.632718,541.982035 842.415943,541.791316 C847.199168,541.600596 851.798917,543.647177 854.859922,547.327801 L847.21528,547.327801 L847.21528,552.922865 L861.203874,552.922865 C861.945395,552.922865 862.657314,552.62823 863.181762,552.103658 C863.706709,551.578711 864.001343,550.867415 864.001343,550.125271 L864.001343,536.136676 L858.405781,536.136676 L858.405781,542.893417 C855.123332,539.349931 850.718174,537.048058 845.934949,536.375231 C841.151848,535.70303 836.283193,536.701216 832.151187,539.202052 C828.018431,541.702513 824.875494,545.552374 823.251818,550.101915 C821.628516,554.650956 821.624769,559.621028 823.240077,564.172942 C824.85601,568.724856 827.993077,572.580087 832.120962,575.087918 C836.24947,577.595123 841.116502,578.601678 845.900976,577.937095 C850.6857,577.272636 855.094106,574.978132 858.38255,571.440392 C861.671368,567.902276 863.639014,563.338622 863.953258,558.518427 L863.952383,558.518302 Z" id="Fill-1"></path>
+                </g>
+            </g>
+        </svg>
+    </button></div>
+    </div>
+
+    <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <h1 class="technique-title">Pomodoro technique:</h1>
+        <p>
+          <h2 class="technique-types"> 10-15 minute Pomodoro, 3-minute break, depending on the volume. </h2></li>
+          <h2 class="technique-types"> 25-30 minute Pomodoro, 5-minute break, depending on your individual flow state. </h2></li>
+          <h2 class="technique-types"> 45-50 minute Pomodoro, 10-15 min break, depending on your individual flow state.</h2></li>
+        
+        </p>
+      </div>
+      <div class="overlay hidden"></div>
+
+    <div class="modal2 hidden2">
+        <button class="close-modal2">&times;</button>
+        <h1 class="technique-title2">About Pomodoro:</h1>
+            <h2 class="technique-types2">The Pomodoro Technique is a time management method based on 25-minute stretches of focused work broken by five-minute breaks. Longer breaks, typically 15 to 30 minutes, are taken after four consecutive work intervals. Each work interval is called a pomodoro, the Italian word for tomato (plural: pomodori).</h2>
+      </div>
+      <div class="overlay2 hidden2"></div>
+    <script src="script.js"></script>
+</body>
+</html>
